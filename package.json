@@ -1,0 +1,12 @@
+{
+  "name": "aks-webapp-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "migrate:simulate": "node scripts/migrate-simulate.js"
+  },
+  "dependencies": {
+    "pg": "^8.13.1"
+  }
+}
